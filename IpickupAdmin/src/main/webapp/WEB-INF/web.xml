@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/spring/root-context.xml</param-value>
+	</context-param>
+	
+	<!-- Creates the Spring Container shared by all Servlets and Filters -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<!-- Processes application requests -->
+	<servlet>
+		<servlet-name>appServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>com.boeing.web.servlet.BoeingJawrServlet</servlet-class>
+
+        <!-- Location in classpath of the config file -->
+        <init-param>
+            <param-name>configLocation</param-name>
+            <param-value>/jawr.properties</param-value>
+        </init-param>
+        <init-param>
+            <param-name>mapping</param-name>
+            <param-value>/imgJawr</param-value>
+        </init-param>
+        <init-param>
+            <param-name>type</param-name>
+            <param-value>img</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>JavascriptServlet</servlet-name>
+        <servlet-class>com.boeing.web.servlet.BoeingJawrServlet</servlet-class>
+        <init-param>
+            <param-name>configLocation</param-name>
+            <param-value>/jawr.properties</param-value>
+        </init-param>
+        <init-param>
+            <param-name>mapping</param-name>
+            <param-value>/jsJawr</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CssServlet</servlet-name>
+        <servlet-class>com.boeing.web.servlet.BoeingJawrServlet</servlet-class>
+        <init-param>
+            <param-name>configLocation</param-name>
+            <param-value>/jawr.properties</param-value>
+        </init-param>
+         <init-param>
+            <param-name>mapping</param-name>
+            <param-value>/cssJawr</param-value>
+        </init-param>
+        <init-param>
+            <param-name>type</param-name>
+            <param-value>css</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JavascriptServlet</servlet-name>
+        <url-pattern>/jsJawr/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CssServlet</servlet-name>
+        <url-pattern>/cssJawr/*</url-pattern>
+    </servlet-mapping>    
+
+    <!-- The image servlet will be able to serve "png" and "gif" files -->
+    <servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <url-pattern>/imgJawr/*</url-pattern>
+    </servlet-mapping>
+		
+	<servlet-mapping>
+		<servlet-name>appServlet</servlet-name>
+		<url-pattern>/view/*</url-pattern>
+	</servlet-mapping>
+
+    <mime-mapping>
+        <extension>js</extension>
+        <mime-type>text/javascript</mime-type>
+    </mime-mapping>
+    
+</web-app>

@@ -1,0 +1,130 @@
+/* Icon Classes */
+/*.icon-check, .icon-check-off {
+	background-image:url(../../extjs/resources/images/default/menu/unchecked.gif) ! important;
+}
+.icon-check-on {
+	background-image:url(../../extjs/resources/images/default/menu/checked.gif) ! important;
+}
+.icon-loading {
+	background-image:url(../../extjs/resources/images/default/grid/grid-loading.gif) ! important;
+}
+.icon-working {
+	background-image:url(../../extjs/resources/images/default/grid/wait.gif) ! important;
+}
+.icon-plus {
+	background-image:url(../images/add.png) ! important;
+}
+.icon-minus {
+	background-image:url(../images/delete.png) ! important;
+}
+.icon-disk {
+	background-image:url(../images/disk.png) ! important;
+}
+.icon-undo {
+	background-image:url(../images/arrow_undo.png) ! important;
+}
+.icon-loading {
+	background-image:url(../../extjs/resources/images/default/grid/grid-loading.gif) ! important;
+}
+.icon-magnifier {
+	background-image:url(../images/magnifier.png) ! important;
+}
+.icon-working {
+	background-image:url(../../extjs/resources/images/default/grid/wait.gif) ! important;
+}
+.icon-zoom {
+	background-image:url(../images/zoom.png) ! important;
+}
+.icon-edit-record {
+	background-image:url(../images/table_edit.png) ! important;
+}
+.icon-form-add {
+	background-image:url(../images/layout_add.png) ! important;
+}
+.x-btn-home {
+	background-image:url(../images/house.png) ! important;	
+}
+.x-btn-contact{
+	background-image:url(../images/user.png) ! important;
+}
+.x-btn-help {
+	background-image:url(../images/help.png) ! important;	
+}
+.x-btn-admin {
+	background-image:url(../images/wrench.png) ! important;	
+}
+.x-btn-logoff {
+	background-image:url(../images/door_out.png) ! important;	
+}
+.nav-button{
+	padding-left: 25px;
+	padding-right: 25px;	
+	font-size: 25px;
+}
+.icon-required-fields {
+	background-image: url(../images/bullet_red.png) 0 6px no-repeat !important;	
+}
+.x-btn-search {
+	background-image:url(../images/find.png) !important;
+}
+.x-btn-save {
+	background-image:url(../images/disk.png) ! important;
+}
+.x-btn-reset {
+	background-image:url(../images/arrow_undo.png) ! important;
+}
+.x-btn-adv-search {
+	background-image:url(../images/page_white_find.png) ! important;
+}
+.x-btn-cancel {
+	background-image:url(../images/cancel.png) ! important;	
+}
+.x-btn-create {
+	background-image:url(../images/pencil.png) ! important;
+}
+.x-btn-add-supplier {
+	background-image:url(../images/cog_add.png) ! important;
+}
+.x-btn-delete-supplier {
+	background-image:url(../images/delete.png) ! important;
+}
+.x-btn-manage{
+	background-image:url(../images/user_suit.png) ! important;
+}
+.menu-btn-sar{
+	background-image:url(../images/application_form.png) ! important;
+}
+.sar-queue{
+	background-image:url(../images/folder_user.png) ! important;	
+}
+.menu-btn-form-submit{
+	background-image:url(../images/page_go.png) ! important;	
+}*/
+.icon-boeing-banner{
+	background-image:url(../images/ssowBanner.jpg) ! important;
+	width:1000px;
+	height:89px;
+}
+/*.icon-portal-banner{
+	background-image:url(../images/portalbanner-epic.jpg) ! important;
+	width:1000px;
+	height:120px;
+}
+.icon-new{
+	background-image:url(../images/new.gif) ! important;
+	width:31px;
+	height:11px;
+}
+
+.icon-tree-minus{
+	background-image:url(../images/elbow-minus-nl.gif) ! important;
+	width:31px;
+	height:11px;
+}
+
+.icon-tree-plus{
+	background-image:url(../images/elbow-plus-nl.gif) ! important;
+	width:31px;
+	height:11px;
+}*/
+/*  Icon Classes end */

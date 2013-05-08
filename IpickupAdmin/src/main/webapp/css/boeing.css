@@ -1,0 +1,399 @@
+body {
+	color: black;
+	font-family: helvetica, geneva, arial, sans-serif;
+	font-size: 12px;
+	background-image:url(../images/boeing_background.jpg);
+}
+
+.smalltype{
+	font-size: 10px;
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+}
+
+.readOnlyInput textarea { 
+	background-image: none;
+	background-color: #FFFEB7;
+}
+
+.readOnlyInput input { 
+	background-image: none;
+	background-color: #FFFEB7;
+	background-color: #F2F6FB;
+	opacity: .6;
+    -moz-opacity: .6;
+    filter: alpha(opacity=60);
+}
+
+#app-menubar {
+	padding-top: 25px;	
+}
+
+.ext-appmenubar{
+	margin-bottom: 10px;	
+}
+
+.customToolBar {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	min-width:600px;
+	width: 1024px;
+	text-align:center;
+	font-family: arial;
+	background-color: black;
+	background-image: none;
+	border-color: black;
+	border-top-color: black;
+}
+
+.customToolBar button {
+	color: white;	
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.x-grid3{
+	height:163px;	
+}
+
+.x-grid3-row-over .x-grid3-cell-inner {
+    font-weight: bold;
+}
+
+#panels {
+	width:1024px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.AppPanel {
+	margin-bottom: 10px;	
+}
+.bc-box {
+	margin-bottom: 10px;	
+}
+.workFlow li{
+		display: inline;
+}
+
+.workFlow .current{
+	font-weight: bold;	
+}
+
+div#dsr_topcontainer {
+	display:block;
+	position:relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px hidden black;
+}
+
+div.gNavbar,div.gNavBar:hover
+{
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.bg_grey {
+    background: #e5e5e5;
+}
+
+.tdpadded {
+   margin: 2px 5px 2px 5px;
+}
+
+.smalltype{
+	font-size: 10px;
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+}
+
+.error {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff0000;
+	text-align: center;
+}
+
+a.alert:link,a.alert:hover,a.alert:active,a.alert:visited {
+	text-decoration: none;
+	color: red;
+}
+
+.smallFontSize {
+	font-size: 10px;
+}
+
+.mediumFontSize {
+	font-size: 12px;
+}
+
+.head2
+{
+	color: #003399;
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+	font-weight: 600;
+}
+
+.whiteLink:link,.whiteLink:active,.whiteLink:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.boeingLink:link,.boeingLink:active,.boeingLink:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+.boeingLink:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.boeingLinkBold:link,.boeingLinkBold:active,.boeingLinkBold:visited {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+.boeingLinkBold:hover {
+	text-decoration: underline;
+	color: blue;
+	font-weight: bold;
+}
+
+.tinyPrint {
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9px;
+}
+
+#docID {
+	color: blue;	
+	cursor:pointer;
+}
+
+.x-combo-list-item {
+	text-align: left;
+}
+
+td.white_blue {
+    font-weight: bold;
+    color:       #FFFFFF;
+    background:  #646F82;
+}
+
+.bg_grey {
+    background: #e5e5e5;
+}
+
+.form_header {
+	font-weight: bold;
+	color: #000000;
+    background: #d4d4d4;
+}
+
+.form_data {
+	color: #000000;
+    background: #e5e5e5;
+}
+
+td.tableData 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 12;    
+    text-align: left;
+    background: #BABABA;    
+}
+
+redFG {
+	color: red;
+}
+
+.ext-el-mask {
+    background-color: transparent;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.redbold {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+span.red {
+	color: red;
+}
+
+.x-panel-body p {
+    margin:10px;
+}
+
+.container {
+    padding:10px 0px 10px 0px;
+    text-align:left;
+}
+
+em.cfg {
+    font-style: italic; font-weight: bold;
+}
+
+.boeing-page-panel-header-text {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	display: table;
+    margin: 0 auto;
+	font-size: medium;
+}
+
+.x-panel-header-text {
+	color: black;
+	font-weight: bold;
+	text-align: center;	
+	display: table;
+    margin: 0 auto;
+}
+
+.x-window-header-text {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	align: center;
+}
+
+button.x-btn-text {
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+span.x-menu-item-text {
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+div.x-grid3-hd-inner {
+	color: black;
+	font-weight: bold;	
+}
+
+.boeing-btn-text {
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+.boeing-menu-item-text {
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+label.x-form-item-label {
+	color: black;
+	font-weight: bold;		
+}
+
+.x-tip .x-tip-header-text {
+	color: black;
+	font-weight: bold;
+}
+
+.x-tip .x-tip-body {
+	color: black;
+	text-align: center;
+}
+
+.x-tip .x-tip-close{
+	color: black;
+	text-align: center;
+}
+
+.x-tip .x-tip-tc, .x-tip .x-tip-tl, .x-tip .x-tip-tr, .x-tip .x-tip-bc, .x-tip .x-tip-bl, .x-tip .x-tip-br, .x-tip .x-tip-ml, .x-tip .x-tip-mr {
+	color: black;
+	text-align: center;
+}
+
+.x-tip .x-tip-mc {
+	color: black;
+	text-align: center;
+}
+.x-tip .x-tip-ml {
+	color: black;
+	text-align: center;
+}
+
+.x-tip .x-tip-header-text {
+	color: black;
+	text-align: center;
+}
+
+.x-tip .x-tip-body {
+	color: black;
+	text-align: center;
+}
+
+.x-form-invalid-tip .x-tip-tc, .x-form-invalid-tip .x-tip-tl, .x-form-invalid-tip .x-tip-tr, .x-form-invalid-tip .x-tip-bc,
+.x-form-invalid-tip .x-tip-bl, .x-form-invalid-tip .x-tip-br, .x-form-invalid-tip .x-tip-ml, .x-form-invalid-tip .x-tip-mr
+{
+	color: black;
+	text-align: center;
+}
+
+.x-form-invalid-tip .x-tip-body {
+	color: black;
+	text-align: center;
+}
+
+.x-tip-anchor {
+	color: black;
+	text-align: center;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+div.bold {
+	font-weight: bold;
+}
+
+.x-form-element-nopadleft {
+		padding-left:0px;
+}
+
+td.x-grid3-td-systemAnnouncementDescription {
+    overflow: hidden;
+}
+td.x-grid3-td-systemAnnouncementDescription div.x-grid3-cell-inner {
+    white-space: normal;
+}
+
+div.disabledRow table.x-grid3-row-table tbody tr td.x-grid3-col div.x-grid3-cell-inner div.x-grid3-row-checker
+{
+   color: gray;
+   background-image: none;
+}
+
+.x-grid3-row td, .x-grid3-summary-row td {
+    -moz-user-select: text;
+}
+
+.x-form-element-nopadleft {
+		padding-left:0px;
+}
+
+div.x-toolbar-blackbar {
+	background-color: #000000;
+	padding-left: 0px;
+	padding-right: 0px;
+}
